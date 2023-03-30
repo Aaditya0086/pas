@@ -1,0 +1,83 @@
+
+
+.app__userhome {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    /* background: white; */
+    /* background-image: url(https://mujslcm.jaipur.manipal.edu:122/keen/themes/keen/theme/demo1/dist/assets/media/misc/collage.png); */
+    /* border-radius: 15px; */
+    /* box-shadow: 0px 14px 80px rgba(34, 35, 58,); */
+    /* padding: 40px 55px 45px 55px; */
+    /* opacity: 1; */
+    /* transition: all 0.3s; */
+    /* width: 450px; */
+    /* border: 2px solid black; */
+}
+
+.app__userhome-image {
+    opacity: 0.2;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.app__userhome-text {
+    /* width: 100%;
+    background: white;
+    height: 100vh;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58,);
+    padding: 40px 55px 45px 55px;
+    margin-left: 750px;
+    margin-top: 110px;
+    border: 2px solid black; */
+
+    /* width: 75%;
+    background: white;
+    height: 75vh;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58,);
+    padding: 40px 55px 45px 55px;
+    margin-left: 320px;
+    margin-top: -1030px;
+    border: 2px solid black; */
+
+    /* text-align: left; */
+    padding:70px 55px 0px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex: 1 ; */
+    margin-bottom: -20px;
+
+}
+
+.app__userhome-btn {
+    justify-content: flex-end;
+    padding: 40px;
+    margin-top: 240px;
+    display: flex;
+    
+}
+
+.app__userhome-text-btn {
+    border-color: #ffc107;
+    color: black;
+    background-color: #ffc107;
+    border-radius: 10px;
+
+}
+
+.app__userhome-text-btn:hover {
+    background-color: rgb(242, 209, 76);
+    border-color: grey ;
+
+}
+
